@@ -4,7 +4,7 @@
    Unlocking sets a per-tab sessionStorage flag that every page checks.
    Note: this is a light lock for a static site, not real access control. */
 (function () {
-  var HASH = "683533e5ab158f6b5c851ada9d4232f105adaac9c9d0319a3bf67f2aad4ff1ef";
+  var HASH = "b603de426ed0b347d8ca096fb13ba40057d1cb21c9767f231cbb490f09fee088";
   var KEY = "cmStoryUnlocked";
   window.CM_GATE_KEY = KEY;
 

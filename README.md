@@ -55,10 +55,12 @@ their `share.gemini.google` link; they render in the "Earlier books" section.
      newest-first).
 3. Upload the changed files to this repo (the working copy lives at
    `~/workspace/storybooks-site/`; publishing uses the GitHub Git Data API
-   via `.tools/upload.py` — blob → tree → commit → update `main`), in one
+   via `.tools/upload.py` — blob → tree → commit → update refs), in one
    commit per night.
-4. GitHub Pages serves `main` from the repo root; new books appear once the
-   Pages build finishes.
+4. GitHub Pages serves the site from the **`gh-pages`** branch root (the
+   branch's presence auto-enabled Pages). `.tools/upload.py` updates `main`
+   and `gh-pages` to the same commit on every publish, so new books appear
+   once the Pages build finishes (a minute or two).
 
 ## Book settings
 
