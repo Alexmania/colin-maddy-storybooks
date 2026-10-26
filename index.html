@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Colin &amp; Maddy's Storybook Library</title>
+<style>
+  :root{
+    --ink:#4a3220; --accent:#e07b2a; --accent2:#f4a950; --card:#fffdf8;
+    --bg:#fff3df; --soft:#ffe7c4; --police:#3a6bd8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
+    background:linear-gradient(180deg,#fff6e3,#ffe9c9);color:var(--ink);min-height:100vh}
+  header{max-width:1100px;margin:0 auto;padding:28px 18px 6px;text-align:center}
+  header h1{margin:0;font-size:clamp(26px,5vw,40px);letter-spacing:.2px}
+  header p.sub{margin:6px 0 0;font-size:16px;opacity:.85}
+  .toolbar{max-width:1100px;margin:14px auto 4px;padding:0 18px;display:flex;gap:10px;
+    flex-wrap:wrap;align-items:center;justify-content:center}
+  .toolbar input[type=search]{flex:1 1 260px;max-width:420px;padding:11px 14px;font-size:16px;
+    border:2px solid var(--soft);border-radius:999px;background:#fff;outline:none}
+  .toolbar input[type=search]:focus{border-color:var(--accent2)}
+  .chip{border:2px solid var(--soft);background:#fff;color:var(--ink);border-radius:999px;
+    padding:9px 14px;font-size:15px;font-weight:600;cursor:pointer}
+  .chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+  .toolbar a.settings,.toolbar button.lock{border:2px solid var(--soft);background:#fff;
+    border-radius:999px;padding:9px 14px;font-size:15px;font-weight:600;color:var(--ink);
+    text-decoration:none;cursor:pointer}
+  main{max-width:1100px;margin:0 auto;padding:14px 18px 50px}
+  h2.section{font-size:22px;margin:26px 0 4px}
+  p.count{margin:2px 0 12px;opacity:.8}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+  .card{background:var(--card);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;
+    box-shadow:0 4px 14px rgba(122,74,18,.13);display:flex;flex-direction:column;
+    transition:transform .12s ease, box-shadow .12s ease}
+  a.card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(122,74,18,.2)}
+  .card img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block;background:var(--soft)}
+  .card .ph{aspect-ratio:3/2;display:flex;align-items:center;justify-content:center;
+    font-size:52px;background:linear-gradient(135deg,#ffe1ae,#ffc98a)}
+  .card .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .card h3{margin:0;font-size:16.5px;line-height:1.25}
+  .card .plot{margin:0;font-size:13.5px;line-height:1.45;opacity:.85;flex:1}
+  .meta{display:flex;gap:8px;align-items:center;font-size:12.5px;font-weight:700}
+  .badge{border-radius:999px;padding:3px 9px;color:#fff;background:var(--accent)}
+  .badge.police{background:var(--police)}
+  .date{opacity:.7}
+  .empty{padding:26px;text-align:center;opacity:.75}
+  /* password gate */
+  .cm-gate-overlay{position:fixed;inset:0;z-index:2000;display:flex;align-items:center;
+    justify-content:center;background:linear-gradient(180deg,#fff6e3,#ffd9a0);padding:18px}
+  .cm-gate-card{background:#fffdf8;border-radius:22px;box-shadow:0 14px 40px rgba(122,74,18,.25);
+    max-width:400px;width:100%;padding:30px 26px;text-align:center}
+  .cm-gate-emoji{font-size:46px}
+  .cm-gate-card h1{font-size:23px;margin:10px 0 6px}
+  .cm-gate-card p{margin:6px 0 14px;opacity:.85}
+  .cm-gate-card form{display:flex;flex-direction:column;gap:10px}
+  .cm-gate-card input{padding:12px 14px;font-size:17px;border:2px solid var(--soft);
+    border-radius:12px;outline:none}
+  .cm-gate-card input:focus{border-color:var(--accent2)}
+  .cm-gate-card button{padding:12px;font-size:16px;font-weight:700;border:0;border-radius:12px;
+    background:var(--accent);color:#fff;cursor:pointer}
+  .cm-gate-err{color:#b3261e;font-weight:600}
+</style>
+</head>
+<body>
+<div id="gate-root"></div>
+
+<header>
+  <h1>📚 Colin &amp; Maddy's Storybook Library</h1>
+  <p class="sub">A brand-new rescue adventure every night — tap a book to read and listen!</p>
+</header>
+
+<div class="toolbar" id="toolbar" hidden>
+  <input type="search" id="q" placeholder="Search books… (try &quot;dragon&quot; or &quot;parade&quot;)" aria-label="Search books">
+  <button class="chip" data-truck="all" aria-pressed="true">All books</button>
+  <button class="chip" data-truck="firefighting" aria-pressed="false">🔥 Firefighting</button>
+  <button class="chip" data-truck="police" aria-pressed="false">🚓 Police</button>
+  <a class="settings" href="settings.html">⚙️ Book settings</a>
+  <button class="lock" id="lockBtn" type="button">🔒 Lock</button>
+</div>
+
+<main id="main" hidden>
+  <p class="count" id="count"></p>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="noResults" hidden>No books match that search — try another word!</p>
+  <h2 class="section">📼 Earlier books</h2>
+  <p class="count">Made with the Gemini Storybook gem — these open on Google's site.</p>
+  <div class="grid" id="geminiGrid"></div>
+</main>
+
+<script src="gate.js"></script>
+<script>
+var BOOKS = [];
+var truckFilter = "all";
+
+function fmtDate(iso){
+  var d = new Date(iso + "T12:00:00");
+  return d.toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"});
+}
+function cardHTML(b){
+  var badge = b.truck === "police"
+    ? '<span class="badge police">🚓 Police pickup</span>'
+    : '<span class="badge">🔥 Firefighting pickup</span>';
+  var cover = b.cover
+    ? '<img loading="lazy" src="' + b.cover + '" alt="Cover of ' + b.title.replace(/"/g,"&quot;") + '">'
+    : '<div class="ph">📖</div>';
+  var href = b.type === "gemini" ? b.url : ("books/" + b.slug + "/");
+  var target = b.type === "gemini" ? ' target="_blank" rel="noopener"' : "";
+  return '<a class="card" href="' + href + '"' + target + '>' + cover +
+    '<div class="body"><h3>' + b.title + '</h3>' +
+    '<p class="plot">' + (b.plot || "") + '</p>' +
+    '<div class="meta">' + badge + '<span class="date">' + fmtDate(b.date) + '</span></div>' +
+    '</div></a>';
+}
+function render(){
+  var q = document.getElementById("q").value.trim().toLowerCase();
+  var site = BOOKS.filter(function(b){ return b.type === "site"; });
+  var shown = site.filter(function(b){
+    if (truckFilter !== "all" && b.truck !== truckFilter) return false;
+    if (!q) return true;
+    return (b.title + " " + (b.plot||"")).toLowerCase().indexOf(q) !== -1;
+  });
+  document.getElementById("grid").innerHTML = shown.map(cardHTML).join("");
+  document.getElementById("noResults").hidden = shown.length > 0;
+  document.getElementById("count").textContent =
+    "Showing " + shown.length + " of " + site.length + " books in the library";
+  var gem = BOOKS.filter(function(b){ return b.type === "gemini"; })
+    .filter(function(b){
+      if (truckFilter !== "all" && b.truck !== truckFilter) return false;
+      if (!q) return true;
+      return (b.title + " " + (b.plot||"")).toLowerCase().indexOf(q) !== -1;
+    });
+  document.getElementById("geminiGrid").innerHTML = gem.map(cardHTML).join("");
+}
+function init(){
+  document.getElementById("toolbar").hidden = false;
+  document.getElementById("main").hidden = false;
+  fetch("catalog.json").then(function(r){ return r.json(); }).then(function(data){
+    BOOKS = data;
+    render();
+  });
+  document.getElementById("q").addEventListener("input", render);
+  Array.prototype.forEach.call(document.querySelectorAll(".chip"), function(chip){
+    chip.addEventListener("click", function(){
+      truckFilter = chip.getAttribute("data-truck");
+      Array.prototype.forEach.call(document.querySelectorAll(".chip"), function(c){
+        c.setAttribute("aria-pressed", c === chip ? "true" : "false");
+      });
+      render();
+    });
+  });
+  document.getElementById("lockBtn").addEventListener("click", function(){ cmLock(); });
+}
+cmGateInit(init);
+</script>
+</body>
+</html>
