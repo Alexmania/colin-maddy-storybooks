@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Little Vet Clinic Rescue",
+  "date": "2026-10-30",
+  "slug": "colin-and-maddy-s-great-little-vet-clinic-rescue",
+  "truck": "firefighting",
+  "plot": "Vet Clinic Opening Day in Sunny Meadow: a wind gust scatters the clinic supplies, and Colin and Maddy with kitten Willa, duckling Dilly, and hedgehog Hugo recover the bandages and cotton balls and finish every checkup",
+  "cover": "books/colin-and-maddy-s-great-little-vet-clinic-rescue/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Mountain Lake Canoe Rescue",
+  "date": "2026-10-30",
+  "slug": "colin-and-maddy-s-great-mountain-lake-canoe-rescue",
+  "truck": "police",
+  "plot": "Mountain Lake Canoe Day: a wind gust sets canoes drifting, and Colin on lake patrol with Maddy rescues baby otter Oona, beaver Benny, and duckling Daisy, clears a log jam, and saves the drifting picnic basket",
+  "cover": "books/colin-and-maddy-s-great-mountain-lake-canoe-rescue/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Halloween Costume Parade Rescue",
   "date": "2026-10-29",
   "slug": "colin-and-maddy-s-great-halloween-costume-parade-rescue",
