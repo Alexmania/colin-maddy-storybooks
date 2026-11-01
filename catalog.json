@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Friendly Monster Parade Rescue",
+  "date": "2026-10-31",
+  "slug": "colin-and-maddy-s-great-friendly-monster-parade-rescue",
+  "truck": "firefighting",
+  "plot": "Friendly Monster Parade night in Sunny Meadow: a gusty wind scatters the little monsters' parade pieces, and Colin and Maddy with Freddie the frog, Ollie the owl, and Hazel the hedgehog recover the squeaky horn, the wobbly hat, and the glow banner",
+  "cover": "books/colin-and-maddy-s-great-friendly-monster-parade-rescue/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Snowman Parade Rescue",
+  "date": "2026-10-31",
+  "slug": "colin-and-maddy-s-great-snowman-parade-rescue",
+  "truck": "police",
+  "plot": "First Snow Day in Sunny Meadow: a whirly wind scatters the snowman's carrot nose, button eyes, and striped scarf, and Colin on snow patrol with Maddy, Bramble the beaver, Pippa the penguin, and Willa the wren recovers every piece and clears the parade path",
+  "cover": "books/colin-and-maddy-s-great-snowman-parade-rescue/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Little Vet Clinic Rescue",
   "date": "2026-10-30",
   "slug": "colin-and-maddy-s-great-little-vet-clinic-rescue",
