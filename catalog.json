@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Snail Race Rescue",
+  "date": "2026-11-01",
+  "slug": "colin-and-maddy-s-great-snail-race-rescue",
+  "truck": "police",
+  "plot": "Snail Race Day in Sunny Meadow: the starting ribbon tangles in daisies, little snail Shelly wanders off toward the pond and gets stuck in the mud, and the golden finish banner blows into a blackberry bush \u2014 Colin on snail patrol with Maddy, Bolt, Hazel, and Freddie saves the race",
+  "cover": "books/colin-and-maddy-s-great-snail-race-rescue/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Magic Show Rescue",
+  "date": "2026-11-01",
+  "slug": "colin-and-maddy-s-great-magic-show-rescue",
+  "truck": "firefighting",
+  "plot": "Magic Show night in Sunny Meadow: Marlo the Magician's helper Binky hops away into the flower garden, his three magic hats blow into the old oak tree, and his star wand goes missing \u2014 Colin, Maddy, Bolt, and friends recover everything before the show",
+  "cover": "books/colin-and-maddy-s-great-magic-show-rescue/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Friendly Monster Parade Rescue",
   "date": "2026-10-31",
   "slug": "colin-and-maddy-s-great-friendly-monster-parade-rescue",
