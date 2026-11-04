@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Toy Shop Mystery",
+  "date": "2026-11-03",
+  "slug": "storybook-2026-11-03-toy-shop-mystery",
+  "truck": "police",
+  "plot": "Toy Shop Mystery: toys go missing from the toy shop window before Window Display Day, and Colin on police pickup lost-and-found patrol with Maddy, Bolt, Willa the kitten, and Biscuit the puppy follows tiny footprints, a button, and a ribbon to find every toy, including the golden rocking horse in Mittens the kitten's practice display",
+  "cover": "books/storybook-2026-11-03-toy-shop-mystery/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Winter Garden Greenhouse",
+  "date": "2026-11-03",
+  "slug": "storybook-2026-11-03-winter-garden-greenhouse",
+  "truck": "dump",
+  "plot": "Winter Garden Greenhouse: Colin's orange dump truck hauls rich soil and gravel to build a warm glass greenhouse with Maddy, Bolt, Molly the mole, Robin the robin, and Rosie the rabbit, solving frozen soil clods, wind-scattered seed packets, and thirsty seedlings before the first sprouts celebration and cozy greenhouse picnic",
+  "cover": "books/storybook-2026-11-03-winter-garden-greenhouse/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Treetop Clubhouse Build",
   "date": "2026-11-02",
   "slug": "colin-and-maddy-s-great-treetop-clubhouse-build",
