@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Desert Train Adventure",
+  "date": "2026-11-05",
+  "slug": "colin-and-maddy-s-great-desert-train-adventure",
+  "truck": "excavator",
+  "plot": "Desert Train Adventure: the little Sandy Express train heads for the Oasis Festival, and Colin in his orange excavator with Maddy, Bolt, Kiki the baby camel, Fennec the fennec fox, and Milo the meerkat clears a sand dune from the tracks, finds spring water for the empty tank, and rescues the festival banner from the tallest cactus before the lantern-lit festival picnic",
+  "cover": "books/colin-and-maddy-s-great-desert-train-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Underwater Treasure Hunt",
+  "date": "2026-11-05",
+  "slug": "colin-and-maddy-s-great-underwater-treasure-hunt",
+  "truck": "police",
+  "plot": "Underwater Treasure Hunt: Colin and Maddy find a treasure map in a bottle on the beach, and Colin on police pickup patrol with Maddy, Bolt, Ollie the octopus, Sammy the seahorse, and Tula the sea turtle sails the glass-bottomed boat Bubble past the coral arch, finds the golden starfish key in a dark cave, and lifts the anchor to open the treasure chest and share the glowing sea-glass jewels",
+  "cover": "books/colin-and-maddy-s-great-underwater-treasure-hunt/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Toy Shop Mystery",
   "date": "2026-11-03",
   "slug": "storybook-2026-11-03-toy-shop-mystery",
