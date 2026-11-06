@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Meadow Concert",
+  "date": "2026-11-04",
+  "slug": "colin-and-maddy-s-great-meadow-concert",
+  "truck": "crane",
+  "plot": "Meadow Concert: Colin and Maddy help their meadow friends put on a concert \u2014 Colin's crane truck builds the stage, Maddy and Bolt decorate it pink and purple, the animal band learns to play together, and when rain comes the crane lifts a striped canopy while Flicker the firefly and friends light the stage for a sunset concert and dancing",
+  "cover": "books/colin-and-maddy-s-great-meadow-concert/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Little Dragon's Brave Roar",
+  "date": "2026-11-04",
+  "slug": "colin-and-maddy-s-great-little-dragon-s-brave-roar",
+  "truck": "firefighting",
+  "plot": "Little Dragon's Brave Roar: shy baby dragon Dewdrop cannot roar yet, and the Friendly Dragon Festival lanterns need a dragon roar to light \u2014 Colin in his orange firefighting pickup with Maddy, Bolt, Clover the kitten and Hoot the owl helps Dewdrop practice, find his brave pebble, and roar golden sparkles that light every lantern",
+  "cover": "books/colin-and-maddy-s-great-little-dragon-s-brave-roar/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Desert Train Adventure",
   "date": "2026-11-05",
   "slug": "colin-and-maddy-s-great-desert-train-adventure",
