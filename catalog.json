@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Pumpkin Patch Harvest",
+  "date": "2026-11-08",
+  "slug": "colin-and-maddy-s-great-pumpkin-patch-harvest",
+  "truck": "firefighting",
+  "plot": "Pumpkin Patch Day at Sunny Acres Farm: Colin in his orange firefighting pickup with Maddy, Bolt, Percy the piglet, Chester the chipmunk, and Tilly the turkey rescues the giant pumpkin Big Lou, helps shy Sammy the Scarecrow get a fine new hat, and carves glowing jack-o-lanterns before the harvest parade and pumpkin pie picnic",
+  "cover": "books/colin-and-maddy-s-great-pumpkin-patch-harvest/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Moonlight Camping Trip",
+  "date": "2026-11-08",
+  "slug": "colin-and-maddy-s-great-moonlight-camping-trip",
+  "truck": "police",
+  "plot": "Moonlight Camping Night at Whispering Pines: Colin on police pickup patrol with Maddy, Bolt, Bramble the badger, Milo the mouse, and Freya the fox kit pitches the tent, lights the campfire, roasts marshmallows, and helps shy baby raccoon Ruby find her way home by firefly light before stargazing and cocoa",
+  "cover": "books/colin-and-maddy-s-great-moonlight-camping-trip/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Berry Picking Adventure",
   "date": "2026-11-07",
   "slug": "storybook-2026-11-07-berry-picking-adventure",
