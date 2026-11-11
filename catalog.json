@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Sandcastle Festival",
+  "date": "2026-11-10",
+  "slug": "colin-and-maddy-s-great-sandcastle-festival",
+  "truck": "police",
+  "plot": "Beach Day: Colin's orange police pickup truck hauls wet sand while Maddy, Bolt, Coral the crab, Sandy the starfish, and Pippin the pelican build the biggest sandcastle town ever, rescue their wind-blown flag, save a runaway beach ball, and march in a lantern-lit Sandcastle Festival parade",
+  "cover": "books/colin-and-maddy-s-great-sandcastle-festival/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Sunset Shell Parade",
+  "date": "2026-11-10",
+  "slug": "colin-and-maddy-s-great-sunset-shell-parade",
+  "truck": "firefighting",
+  "plot": "Sunset Beach Day: Colin's orange firefighting pickup clears the parade path and mists a cool trail while Maddy, Bolt, Bubbles the baby dolphin, Shelly the baby sea turtle, and Sunny the seagull collect shells for the Sunset Shell Parade and help shy Shelly take her very first swim",
+  "cover": "books/colin-and-maddy-s-great-sunset-shell-parade/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Snow Fort Build",
   "date": "2026-11-09",
   "slug": "colin-and-maddy-s-great-snow-fort-build",
