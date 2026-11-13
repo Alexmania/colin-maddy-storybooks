@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Invention Fair",
+  "date": "2026-11-12",
+  "slug": "colin-and-maddy-s-great-invention-fair",
+  "truck": "firefighting",
+  "plot": "Invention Fair Day: Colin drives his bright orange firefighting pickup truck while Maddy, Bolt, Cora the crow, Benny the beaver, and Pip the mouse mechanic chase a runaway bubble that carries off the golden prize wrench, and end with a bubble parade and picnic",
+  "cover": "books/colin-and-maddy-s-great-invention-fair/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Talent Show",
+  "date": "2026-11-12",
+  "slug": "colin-and-maddy-s-great-talent-show",
+  "truck": "crane",
+  "plot": "Talent Show Day: Colin drives his big orange crane truck to set up the meadow amphitheater stage while Maddy, Bolt, Freddie the frog, Daisy the duckling, and Ollie the otter perform, and help shy Lulu the lark find her song",
+  "cover": "books/colin-and-maddy-s-great-talent-show/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Ski Lodge Adventure",
   "date": "2026-11-11",
   "slug": "colin-and-maddy-s-great-ski-lodge-adventure",
