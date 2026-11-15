@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Winter Bird Feast",
+  "date": "2026-11-14",
+  "slug": "colin-and-maddy-s-great-winter-bird-feast",
+  "truck": "firefighting",
+  "plot": "Winter Bird Feast Day: Colin drives his bright orange firefighting pickup truck with Maddy, Bolt, Ruby the robin, Chirpy the chickadee, Benny the blue jay, Willa the wren, and Ollie the owl to clear the snow, refill the empty feeder, hang ice lanterns, and coax shy baby cardinal Rosie to sing the feast song",
+  "cover": "books/colin-and-maddy-s-great-winter-bird-feast/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Ice Hotel Build",
+  "date": "2026-11-14",
+  "slug": "colin-and-maddy-s-great-ice-hotel-build",
+  "truck": "excavator",
+  "plot": "Ice Hotel Build: Colin drives his big orange excavator with Maddy, Bolt, Pip the penguin, Fern the arctic fox kit, Opal the snowy owl, Sami the seal pup, and baby polar bear Bo to build a sparkling ice hotel before the Snowflake Festival, fixing a wobbly wall, an icy door, and a wind-blown flag",
+  "cover": "books/colin-and-maddy-s-great-ice-hotel-build/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Moon Trip",
   "date": "2026-11-13",
   "slug": "colin-and-maddy-s-great-moon-trip",
