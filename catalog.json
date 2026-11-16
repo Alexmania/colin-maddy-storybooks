@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Santa's Workshop Adventure",
+  "date": "2026-11-15",
+  "slug": "colin-and-maddy-s-great-santa-s-workshop-adventure",
+  "truck": "police",
+  "plot": "Santa's Workshop Day: Colin drives his bright orange police pickup truck with Maddy, Bolt, Pip the penguin, Tinsel the mouse, Snowball the polar bear cub, and Willa the wren to find three missing golden jingle bells, untangle the ribbon machine, and free the toy train before the Great Gift Parade",
+  "cover": "books/colin-and-maddy-s-great-santa-s-workshop-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Playground Build",
+  "date": "2026-11-15",
+  "slug": "colin-and-maddy-s-great-playground-build",
+  "truck": "crane",
+  "plot": "Playground Build Day: Colin drives his big orange crane truck with Maddy, Bolt, Sammy the squirrel, Bramble the beaver, Daisy the duckling, Hazel the hedgehog, and Ollie the owl to build the best playground in Sunny Meadow, fixing the swing frame, moving the slide out of the mud, and clearing the sandbox rock",
+  "cover": "books/colin-and-maddy-s-great-playground-build/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Winter Bird Feast",
   "date": "2026-11-14",
   "slug": "colin-and-maddy-s-great-winter-bird-feast",
