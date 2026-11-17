@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Fifth Birthday Adventure",
+  "date": "2026-11-16",
+  "slug": "colin-and-maddy-s-great-fifth-birthday-adventure",
+  "truck": "firefighting",
+  "plot": "Colin's 5th Birthday Day: Colin drives his bright orange firefighting pickup truck with Maddy, Bolt, Sunny the squirrel, Coco the kitten, Milo the mouse, Bella the bear cub, Tilly the turtle, and Freddie the fox kit to bake a five-layer cake, hunt five golden stars, blow out five candles, and lead a birthday parade around Sunny Meadow",
+  "cover": "books/colin-and-maddy-s-great-fifth-birthday-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Cherry Blossom Festival",
+  "date": "2026-11-16",
+  "slug": "colin-and-maddy-s-great-cherry-blossom-festival",
+  "truck": "police",
+  "plot": "Cherry Blossom Festival Day in Sunny Meadow: Colin on police pickup festival patrol with Maddy, Bolt, Hana the hummingbird, Yuki the white fox kit, Beni the red panda, Suki the squirrel, and Taro the turtle hangs the blossom lanterns, gathers the wind-scattered petal invitations, untangles the parade banner, and helps shy baby deer Dara join the petal dance; blossom picnic, petal parade, and lantern-lit dance",
+  "cover": "books/colin-and-maddy-s-great-cherry-blossom-festival/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Santa's Workshop Adventure",
   "date": "2026-11-15",
   "slug": "colin-and-maddy-s-great-santa-s-workshop-adventure",
