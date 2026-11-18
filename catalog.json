@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Dinosaur Bone Dig",
+  "date": "2026-11-17",
+  "slug": "colin-and-maddy-s-great-dinosaur-bone-dig",
+  "truck": "dump",
+  "plot": "Dino Dig Park discovery: Colin's big orange dump truck hauls dirt with Professor Hoot the owl, Rex the baby dinosaur, Trixie the triceratops, and Sammy the squirrel to uncover a giant brontosaurus \u2014 rib bone, rock-trapped leg bone, and tail bone across a muddy puddle \u2014 then builds the skeleton for a dino dance and picnic",
+  "cover": "books/colin-and-maddy-s-great-dinosaur-bone-dig/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Moon Garden Adventure",
+  "date": "2026-11-17",
+  "slug": "colin-and-maddy-s-great-moon-garden-adventure",
+  "truck": "firefighting",
+  "plot": "Moon Garden discovery: Luna the luna moth leads Colin and Maddy to a secret garden that only blooms in moonlight; with Ollie the owl, Hazel the hedgehog, Pip the field mouse, and grumpy Mr. Muddle the mole they plant silver moonflower seeds, water them with the firefighting pickup's gentle spray, and celebrate as the garden blooms silver at moonrise",
+  "cover": "books/colin-and-maddy-s-great-moon-garden-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Fifth Birthday Adventure",
   "date": "2026-11-16",
   "slug": "colin-and-maddy-s-great-fifth-birthday-adventure",
