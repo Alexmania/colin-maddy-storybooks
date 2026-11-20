@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Farmers Market Adventure",
+  "date": "2026-11-19",
+  "slug": "colin-and-maddy-s-great-farmers-market-adventure",
+  "truck": "firefighting",
+  "plot": "Farmers Market Day at Sunny Meadow: Colin's bright orange firefighting pickup truck with Maddy, Bolt, Ginger the goat kid, and friends rescues toppled strawberry baskets, saves the welcome banner from a playful wind, washes dusty vegetables, and shares a market feast",
+  "cover": "books/colin-and-maddy-s-great-farmers-market-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Mural Adventure",
+  "date": "2026-11-19",
+  "slug": "colin-and-maddy-s-great-mural-adventure",
+  "truck": "crane",
+  "plot": "Mural Day at the meadow: Colin's big orange crane truck with Maddy, Bolt, Pablo the parrot, and friends lifts painters to the top of a tall grey wall, shields the fresh paint from a rain cloud, and paints a golden sun, a rainbow, and a pink-and-purple flower garden",
+  "cover": "books/colin-and-maddy-s-great-mural-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Maple Syrup Adventure",
   "date": "2026-11-18",
   "slug": "colin-and-maddy-s-great-maple-syrup-adventure",
