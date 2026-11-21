@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Submarine Adventure",
+  "date": "2026-11-20",
+  "slug": "colin-and-maddy-s-great-submarine-adventure",
+  "truck": "police",
+  "plot": "Submarine Day at Sunny Harbor: Colin's bright orange police pickup truck tows the little yellow submarine Bubbles to the water, and Colin, Maddy, Bolt, Marina the manta ray, Wally the baby whale, Lulu the lanternfish, and Pip the pufferfish free a tangled propeller, find a lost whale song, and relight the Jellyfish Glow Garden",
+  "cover": "books/colin-and-maddy-s-great-submarine-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Pizza Party Adventure",
+  "date": "2026-11-20",
+  "slug": "colin-and-maddy-s-great-pizza-party-adventure",
+  "truck": "dump",
+  "plot": "Pizza Party Day in the garden: Colin's big orange dump truck hauls bricks and firewood to build a pizza oven with Maddy, Bolt, Milo the mouse chef, Daisy the duckling, Oliver the owl, and Rosie the rabbit, chasing a runaway dough ball and sharing a pizza feast",
+  "cover": "books/colin-and-maddy-s-great-pizza-party-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Farmers Market Adventure",
   "date": "2026-11-19",
   "slug": "colin-and-maddy-s-great-farmers-market-adventure",
