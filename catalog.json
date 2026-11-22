@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Candy Cane Adventure",
+  "date": "2026-11-21",
+  "slug": "colin-and-maddy-s-great-candy-cane-adventure",
+  "truck": "firefighting",
+  "plot": "Candy Cane Day on Candy Cane Lane: Colin's bright orange firefighting pickup truck, Maddy, Bolt, Peppy the penguin, Sugar the squirrel, Minty the mouse, and Cinnamon the chipmunk follow peppermint footprints to find the missing giant candy cane star, relight the bridge lanterns, and light up the Sweet Tree",
+  "cover": "books/colin-and-maddy-s-great-candy-cane-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Hot Cocoa Adventure",
+  "date": "2026-11-21",
+  "slug": "colin-and-maddy-s-great-hot-cocoa-adventure",
+  "truck": "cement mixer",
+  "plot": "Hot Cocoa Day in Snowy Park: Colin's big orange cement mixer truck stirs the giant cocoa pot with Maddy, Bolt, Mocha the puppy, Snowball the snowshoe hare, Twig the red squirrel, and Pearl the penguin chick, rescuing scattered marshmallows, sweetening the cocoa with honey, and relighting the fire",
+  "cover": "books/colin-and-maddy-s-great-hot-cocoa-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Submarine Adventure",
   "date": "2026-11-20",
   "slug": "colin-and-maddy-s-great-submarine-adventure",
