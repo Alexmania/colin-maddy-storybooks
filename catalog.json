@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Star Festival Adventure",
+  "date": "2026-11-22",
+  "slug": "colin-and-maddy-s-great-star-festival-adventure",
+  "truck": "police",
+  "plot": "Star Festival Day on Starry Hill: Colin's bright orange police pickup truck, Maddy, Bolt, Luma the firefly, Felix the fox, Wren the wren, Bramble the badger, and Nia the nightingale find the wind-scattered star lanterns, free Nia's lantern from the oak tree, and light up the Star Tree",
+  "cover": "books/colin-and-maddy-s-great-star-festival-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Seashell Adventure",
+  "date": "2026-11-22",
+  "slug": "colin-and-maddy-s-great-seashell-adventure",
+  "truck": "excavator",
+  "plot": "Seashell Day at Sunny Beach: Colin's big orange excavator truck, Maddy, Bolt, Shelly the hermit crab, Sunny the seagull, Bubbles the baby octopus, and Sandy the starfish build a seashell garden and find Shelly the perfect new shell",
+  "cover": "books/colin-and-maddy-s-great-seashell-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Candy Cane Adventure",
   "date": "2026-11-21",
   "slug": "colin-and-maddy-s-great-candy-cane-adventure",
