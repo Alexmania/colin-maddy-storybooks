@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Kite Festival Adventure",
+  "date": "2026-11-24",
+  "slug": "storybook-2026-11-24-kite-festival-adventure",
+  "truck": "police",
+  "plot": "Kite Festival Day at Windy Hill: Colin's bright orange police pickup truck, Maddy, Bolt, Ollie the owl, Sammy the squirrel, Ruby the rabbit, and Pip the penguin untangle the kites from the tall oak, chase the little yellow kite Sunny to the river, and fly the great kite parade",
+  "cover": "books/storybook-2026-11-24-kite-festival-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Garden Railway Adventure",
+  "date": "2026-11-24",
+  "slug": "storybook-2026-11-24-garden-railway-adventure",
+  "truck": "excavator",
+  "plot": "Garden Railway Day: Colin's big orange excavator, Maddy, Bolt, Molly the mole, Rosie the rabbit, Hazel the hedgehog, and Dilly the duckling dig a tunnel, fix a wobbly rail, wake a sleepy mole, and bridge a rain puddle for the little red train's first ride",
+  "cover": "books/storybook-2026-11-24-garden-railway-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Fishing Adventure",
   "date": "2026-11-23",
   "slug": "colin-and-maddy-s-great-fishing-adventure",
