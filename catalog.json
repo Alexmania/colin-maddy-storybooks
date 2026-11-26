@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Thanksgiving Feast Adventure",
+  "date": "2026-11-25",
+  "slug": "storybook-2026-11-25-thanksgiving-feast-adventure",
+  "truck": "firefighting",
+  "plot": "Thank-You Feast Day in Sunny Meadow: Colin's bright orange firefighting pickup truck, Maddy, Bolt, Hazel the hedgehog, Ginger the goat kid, Willa the wren, Bramble the beaver, Ruby the robin, and Pip the field mouse rescue the scattered leaf place-cards, fix the wobbly pie cart, and coax a shy baby deer to the great feast",
+  "cover": "books/storybook-2026-11-25-thanksgiving-feast-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Sandbox City Adventure",
+  "date": "2026-11-25",
+  "slug": "storybook-2026-11-25-sandbox-city-adventure",
+  "truck": "dump",
+  "plot": "Sandbox City Day in Sunny Meadow: Colin's big orange dump truck, Maddy, Bolt, Sammy the squirrel, Daisy the duckling, Milo the mouse, Tilly the turtle, Bella the bunny, and Oliver the owl build a tiny sand city, fix a slumped tower and a washed-out pebble road, and wake a sleepy mole for the first parade",
+  "cover": "books/storybook-2026-11-25-sandbox-city-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Kite Festival Adventure",
   "date": "2026-11-24",
   "slug": "storybook-2026-11-24-kite-festival-adventure",
