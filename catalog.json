@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Sled Race Adventure",
+  "date": "2026-11-26",
+  "slug": "storybook-2026-11-26-sled-race-adventure",
+  "truck": "police",
+  "plot": "Sled Race Day on Snowy Hill: Colin's bright orange police pickup truck, Maddy, Bolt, Pip the penguin, Fern the arctic fox kit, Ollie the owl, and Benny the bunny fix a wobbly snow bridge, find Fern's lost red mitten in a snowdrift, and gently wake a sleepy snowman napping across the finish line",
+  "cover": "books/storybook-2026-11-26-sled-race-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Backyard Movie Night",
+  "date": "2026-11-26",
+  "slug": "storybook-2026-11-26-backyard-movie-night",
+  "truck": "crane",
+  "plot": "Backyard Movie Night under the stars: Colin's big orange crane truck, Maddy, Bolt, Lulu the ladybug, Sammy the squirrel, Daisy the duckling, and Freddie the frog lift the tall white screen, fix a popcorn machine that pops too much, and coax a sleepy firefly to light the projector",
+  "cover": "books/storybook-2026-11-26-backyard-movie-night/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Thanksgiving Feast Adventure",
   "date": "2026-11-25",
   "slug": "storybook-2026-11-25-thanksgiving-feast-adventure",
