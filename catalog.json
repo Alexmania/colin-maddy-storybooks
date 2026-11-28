@@ -1,5 +1,23 @@
 [
  {
+  "title": "Colin and Maddy's Great Christmas Tree Adventure",
+  "date": "2026-11-27",
+  "slug": "storybook-2026-11-27-christmas-tree-adventure",
+  "truck": "firefighting",
+  "plot": "Christmas Tree Day in the snowy pine forest: Colin's bright orange firefighting pickup truck, Maddy, Bolt, Ollie the owl, Nutmeg the squirrel, Bramble the beaver, and shy baby deer Willow clear a snowdrift, build a plank bridge, find the missing golden star, and light the twinkliest tree of all",
+  "cover": "books/storybook-2026-11-27-christmas-tree-adventure/images/p01.webp",
+  "type": "site"
+ },
+ {
+  "title": "Colin and Maddy's Great Snowflake Dance",
+  "date": "2026-11-27",
+  "slug": "storybook-2026-11-27-snowflake-dance",
+  "truck": "excavator",
+  "plot": "The Great Snowflake Dance in Snowy Meadow: Colin's big orange excavator, Maddy, Bolt, Lulu the snow bunting, Frost the shy arctic fox kit, Opal the snowy owl, and Sunny the seal pup dig the lost music box out of a snowdrift, fix a slippery dance stage, and dance with the falling snowflakes",
+  "cover": "books/storybook-2026-11-27-snowflake-dance/images/p01.webp",
+  "type": "site"
+ },
+ {
   "title": "Colin and Maddy's Great Sled Race Adventure",
   "date": "2026-11-26",
   "slug": "storybook-2026-11-26-sled-race-adventure",
